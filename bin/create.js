@@ -20,6 +20,7 @@ if (fs.existsSync(`${currentPath}/src/`)) {
 
 async function createReactComponent(componentName){
   return new Promise((resolve, reject) => {
+    componentName = componentName.capitalize();
     var reactComponent = `import React, { Component } from 'react';
 
     class ${componentName} extends Component {
@@ -40,6 +41,7 @@ async function createReactComponent(componentName){
 
 async function createStyledComponent(componentName){
   return new Promise((resolve, reject) => {
+    componentName = componentName.capitalize();
     var styledComponent = `import React from 'react';
     export default ${componentName} = styleMedia.div\`\`` + ";";
     writeStyledTemplate(componentName, styledComponent);

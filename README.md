@@ -4,6 +4,8 @@
 
 Install module globally
 
+npm -i styled-component-generator -g
+
 Naviate to react project root
 
 cst ComponentOneName ComponentTwoName etc...
