@@ -47,7 +47,7 @@ async function createReactComponent(componentName){
 async function createStyledComponent(componentName){
   return new Promise((resolve, reject) => {
     componentName = componentName.capitalize();
-    var styledComponent = `import styled, { css } from 'styled-components';`
+    var styledComponent = `import styled from 'styled-components';`
     writeStyledTemplate(componentName, styledComponent);
     resolve(componentName, styledComponent)
   });
