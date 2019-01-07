@@ -47,7 +47,7 @@ async function createReactComponent(componentName){
 async function createStyledComponent(componentName){
   return new Promise((resolve, reject) => {
     componentName = componentName.capitalize();
-    var styledComponent = `export default ${componentName} = styleMedia.div\`\`` + ";";
+    var styledComponent = `import styled, { css } from 'styled-components';`
     writeStyledTemplate(componentName, styledComponent);
     resolve(componentName, styledComponent)
   });
@@ -80,7 +80,6 @@ async function createDirectory(componentName){
 
 async function processArguments(args){
   const createDirectories = args.map(createDirectory);
-  await Promise.all(createDirectories);
   const createStyledComponents = args.map(createStyledComponent)
   const createReactComponents = args.map(createReactComponent)
   await Promise.all(createDirectories, createStyledComponents, createReactComponents);
