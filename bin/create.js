@@ -10,11 +10,16 @@ String.prototype.capitalize = function() {
   return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+//Error Messages
+
+
 // Look for src Folders
 if (fs.existsSync(`${currentPath}/src/`)) {
    shell.exec('echo THE SRC FOLDER WAS FOUND')
+   shell.exec('echo Generating Templates');
 } else {
-  shell.exec('echo The src folder was not found. To use cst you must be within a react project?')
+  shell.exec('echo The folder was not found. To use cst you ');
+  shell.exec('echo Aborting cst')
   return;
 }
 
@@ -79,10 +84,8 @@ async function processArguments(args){
   await Promise.all(createDirectories);
   const createStyledComponents = args.map(createStyledComponent)
   const createReactComponents = args.map(createReactComponent)
-
-
-
   await Promise.all(createDirectories, createStyledComponents, createReactComponents);
+  shell.exec('echo Done Generating ' + args.length);
 }
 
 

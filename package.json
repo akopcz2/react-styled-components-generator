@@ -1,6 +1,6 @@
 {
   "name": "styled-component-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Adrian Kopczewski",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.3.3",
     "js-beautify": "^1.8.9",
     "shelljs": "^0.8.3"
   },
