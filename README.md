@@ -1,6 +1,5 @@
 ## React Component and Styled Component Generator
 
-<img src="http://recordit.co/PCrNclkiPA">
 ##### How to Use
 
 Install module globally
