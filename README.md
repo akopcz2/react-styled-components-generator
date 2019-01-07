@@ -1,5 +1,7 @@
 ## React Component and Styled Component Generator
 
+![React component and styled component generator](sample-use.gif)
+
 ##### How to Use
 
 Install module globally
