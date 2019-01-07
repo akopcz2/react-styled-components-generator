@@ -1,6 +1,6 @@
 ## React Component and Styled Component Generator
 
-[<img src="http://recordit.co/PCrNclkiPA">]
+![alt tag](http://recordit.co/PCrNclkiPA "React Components and Styled Components Generator")
 ##### How to Use
 
 Install module globally
