@@ -1,6 +1,6 @@
 ## React Component and Styled Component Generator
 
-![React component and styled component generator](sample-use.gif)
+![React component and styled component generator](sample-use-new.gif)
 
 ##### How to Use
 
