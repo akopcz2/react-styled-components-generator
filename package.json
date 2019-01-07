@@ -15,5 +15,17 @@
   },
   "bin": {
     "cst": "./bin/create.js"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "react",
+    "styled components",
+    "generator",
+    "rapid prototyping"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akopcz2/react-styled-components-generator"
   }
 }
