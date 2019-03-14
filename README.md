@@ -6,6 +6,10 @@
 
 Install module globally
 
+
+[Styled Component Generator on NPM](https://www.npmjs.com/package/styled-component-generator)
+
+
 ```javascript
 npm -i styled-component-generator -g
 ```
