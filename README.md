@@ -17,15 +17,16 @@ cst ComponentOneName ComponentTwoName etc...
 ```
 
 Generated Structure after running cst will be
-```javascript
-.src
-  components
-    ----ComponentOneName
-        --index.js
-        --styled.js
-    ----ComponentTwoName
-        --index.js
-        --styled.js
+```
+src
+│
+└───components
+│   └───ComponentOneName
+│       └───index.js
+│       └───styled.js
+│   └───ComponentTwoName
+│       └───index.js
+│       └───styled.js
 ```
 
 ##### Add-Ons in Future
