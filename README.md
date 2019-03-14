@@ -33,6 +33,13 @@ src
 │       └───styled.js
 ```
 
+##### Testing
+```javascript
+npm run test
+```
+
 ##### Add-Ons in Future
 Add options to select from pre-existing component templates
+
+
 
